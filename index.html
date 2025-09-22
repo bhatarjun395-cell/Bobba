@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Computers</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e88e5;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 8px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #ffeb3b;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+      height: 420px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px black;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px;
+    }
+    .welcome {
+      text-align: center;
+      padding: 30px;
+      background: #e3f2fd;
+    }
+    .welcome h2 {
+      margin-bottom: 10px;
+      color: #1e88e5;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 12px 0;
+      color: #1e88e5;
+    }
+    .cta {
+      text-align: center;
+      padding: 40px;
+      background: #e8f5e9;
+    }
+    .cta h2 {
+      margin-bottom: 15px;
+      color: #2e7d32;
+    }
+    .cta button {
+      padding: 10px 20px;
+      border: none;
+      background: #1e88e5;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s ease;
+    }
+    .cta button:hover {
+      background: #0d47a1;
+    }
+    footer {
+      background: linear-gradient(to right, #1e88e5, #0d47a1);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 14px;
+      letter-spacing: 1px;
+      margin-top: 30px;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>
+      <img src="https://cdn-icons-png.flaticon.com/512/1006/1006363.png" 
+           alt="Computer Icon" 
+           style="height:40px; vertical-align:middle; margin-right:10px;">
+      Welcome to the World of Computers
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Uses</a></li>
+        <li><a href="#">Future</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    Unlocking the Power of Computers 💻
+  </section>
+
+  <section class="welcome">
+    <h2>Hello 👋 Welcome to Computers</h2>
+    <p>Computers are more than just machines — they are tools that connect, create, and transform the way we live, work, and dream.</p>
+  </section>
+
+  <section class="container">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="History of Computers">
+      <h3>History of Computers</h3>
+      <p>From abacus to supercomputers, the evolution of computers is a story of human innovation and progress.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1581091215367-59ab6c34a8c3?auto=format&fit=crop&w=800&q=80" alt="Computer Uses">
+      <h3>Everyday Uses</h3>
+      <p>Computers power our daily lives — from online learning to medical breakthroughs and space exploration.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?auto=format&fit=crop&w=800&q=80" alt="AI and Future">
+      <h3>Artificial Intelligence</h3>
+      <p>AI is reshaping industries and changing the way we interact with technology.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1621839673705-f44bbf8ba0aa?auto=format&fit=crop&w=800&q=80" alt="Programming">
+      <h3>Programming</h3>
+      <p>Coding is the language of computers — empowering people to create apps, games, and digital solutions.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Future of Tech">
+      <h3>Future of Technology</h3>
+      <p>Quantum computing, robotics, and new innovations are just the beginning of the digital revolution.</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>🚀 Ready to Explore Computers?</h2>
+    <p>Discover how computers shape the world and unlock endless possibilities.</p>
+    <button>Start Your Tech Journey</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Explore Computers | Made with 💙 for Tech Enthusiasts</p>
+    <p>"The computer was born to solve problems that did not exist before." – Bill Gates</p>
+  </footer>
+</body>
+</html>
